@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\Common\CTexture.cpp">
+      <Filter>ソースファイル\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\CApplication.cpp">
+      <Filter>ソースファイル\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\CCamera.cpp">
+      <Filter>ソースファイル\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\CDirectInput.cpp">
+      <Filter>ソースファイル\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\CFont.cpp">
+      <Filter>ソースファイル\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\CPicture.cpp">
+      <Filter>ソースファイル\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\CQuadPolygon.cpp">
+      <Filter>ソースファイル\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>ソースファイル\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\DirectXTex-master\WICTextureLoader\WICTextureLoader.cpp">
+      <Filter>ソースファイル\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\GamePGUtil.cpp">
+      <Filter>ソースファイル\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Original\GameClear.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Original\GameOver.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Original\GamePlay.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Original\GameTitle.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Original\Sprite.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="COriginalGameApp.cpp">
+      <Filter>ソースファイル\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="OriginalGame.cpp">
+      <Filter>ソースファイル\Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Common\CApplication.h">
+      <Filter>ヘッダーファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CCamera.h">
+      <Filter>ヘッダーファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CDirectInput.h">
+      <Filter>ヘッダーファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CFont.h">
+      <Filter>ヘッダーファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Common3DType.h">
+      <Filter>ヘッダーファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CPicture.h">
+      <Filter>ヘッダーファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CQuadPolygon.h">
+      <Filter>ヘッダーファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CTexture.h">
+      <Filter>ヘッダーファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\D3DEnv.h">
+      <Filter>ヘッダーファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\GameConst.h">
+      <Filter>ヘッダーファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\GamePGUtil.h">
+      <Filter>ヘッダーファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MediaResource.h">
+      <Filter>ヘッダーファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>ヘッダーファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>ヘッダーファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>ヘッダーファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\DirectXTex-master\WICTextureLoader\WICTextureLoader.h">
+      <Filter>ヘッダーファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="UVAnimation.h">
+      <Filter>ヘッダーファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Original\GameResource.h">
+      <Filter>ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Original\UV.h">
+      <Filter>ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="OriginalGame.h">
+      <Filter>ヘッダーファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="COriginalGameApp.h">
+      <Filter>ヘッダーファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="OriginalGame.ico">
+      <Filter>リソースファイル</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ソースファイル">
+      <UniqueIdentifier>{64760f6d-c014-403e-903b-91ce7bcd595b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダーファイル">
+      <UniqueIdentifier>{7b0d3ef6-e215-44a3-a404-1e27339ddc2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダーファイル\Common">
+      <UniqueIdentifier>{6b9e5d70-edd3-4b30-b07c-492d1fa8b274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\Common">
+      <UniqueIdentifier>{ea4226b5-b1db-4b62-a652-4e21851dddad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソースファイル">
+      <UniqueIdentifier>{ac0a9fb6-3c94-490d-b572-4fbd27ccba60}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OriginalGame.rc">
+      <Filter>リソースファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
